@@ -1,0 +1,39 @@
+﻿lang_ID;lang_Name;lang_Var;lang_Br;10^1;10^2;10^3;10^4;10^5;10^6;10^7;10^8;10^9;10^10;Orth;Source;comm_Source;comm_Syst
+cham1312;Chamorro;main;2;manot;gatus;chalan;*manutu;;;;;;;0;Safford (1904:95-102); ;"""manot […] considered as expressing 'a set.' When more than one ten is expressed, fulu is used"" (p.100)"
+pala1344;Palauan;main;2;mágod / trúiŭg;dart;tëláel;(trúiŭg l tëláel);(dart l tëláel);;;;;;0;Krämer (1919:331); ;Krämer (1919:331) assumes power numerals over 1000 to be influenced by Western languages
+yape1248;Yapese;main;2;erregak;erre-ei;ebiu;(ebiegak ebiu);(erre-ei ebiu);;;;;;0;Tetens & Kubary (1873:27[99]);Müller (1917:125f.): similar, but one power less;
+ngul1236;Nguluwan;main;2;ragāk;raei / răb moú;?;;;;;;;;0;Eilers (1936:243) ;Eilers' list of numerals ends at 600;
+kapi1249;Kapingamarangi;main;2;[matanga] huru ;rau;mano;;;;;;;;0;Eilers (1934:300 [citing Jeschke & Kubary]) ;Lieber & Dikepa (1974): similar;
+nuku1260;Nukuoro;main;2;hulu / mada;lau;mano;semada;seguli;seloo;sengaa;semuna;sebugi;sebaga;0;Harrison & Jackson (1984:72);Carroll & Soulik (1973): same numerals (except for 10) up to 10^8;"C&S (1973: 465): madaangahulu for objects, hulu in enumeration & compounds only; H&J (1984:72): hulu/mada for 10"
+naur1243;Nauru;main;1;ata;aibu;arańa;(ata arańan);(aibu arańan);(arańa e arańan);;;;;0;Kayser (1993[1936]:68);power numeral for 100,000 from Hambruch (1914:111);beyond 10^6, counting returns to 1 (iwuit) & continues recursively (Kayser 1993:68)
+kosr1238;Kosraean;main;1;[-]nguhul;[-]fok(o);(tausin);;;(milion);;;;;0;Lee (1975:123); ;Vesper (1970) gives siŋaul for 10 (but no higher power numerals)
+gilb1244;Gilbertese;main;1;tebwina / teñaun;tebubua;teña;terebu;tekuri;teea;tetano;tetoki;(tebwina tetoki);;0;Bingham (1922:15-19);;Bingham (1922:15) gives tebwina for 10 objects and teñaun for 10 people (or 100 coconuts [p.17])
+mars1254;Marshallese;main;1;joñoul;jibugi;jeraben;;;;;;;;0;Erdland (1906:204); ;"for power numerals in specific counting systems, see Erdland (1906:204f.); analysis in Bender & Beller (subm.)"
+ping1243;Pingelapese;main;1;eisaek / eisik;epwiki;kid;naen;lop;rar;dep;sap;lik;;0;Good & Welley (1989:9-12);Eilers (1934:461-463) reports similar, yet more complicated numerals (except for 10) up to 10^9;Eilers (1934:462) reports   ̴sēngeṵil for 10
+moki1238;Mokilese;main;1;eijek;epwki;kid;nen;lopw;rar;dep;japw;lik;;0;Harrison (1976:97);Eilers (1934:397) reports similar, yet more complicated numerals (except for 10), and up to 1000 only;Eilers (1934:397) reports χengúl for 10
+pohn1238;Pohnpeian;main;1;eisek / ehk / ngoul;epwiki;kid;nen;lopw;rar;dep;sapw;lik;;0;Rehg (1981:139); ;
+mort1237;Mortlockese;main;1;eṅoal / säk;épuku;éṅarau;kit;;;;;;;1;Girschner (1913:171); ;Girschner (1913:171) reports eṅoal for rapid counting and most objects, säk for living beings
+chuu1238;Chuukese;main;1;engon;ipükü;engeröü;ekit;föünpi ;(minion);;;;;0;Elbert (1947:23f.);Krämer (1932:37): similar [100 lacking];
+poll1238;Pollapese;Pollap;1;hejik;pwukuw;ngaraw;?;;;;;;;0;Quackenbush (1968:201-203); ;
+pulu1242;Puluwatese;Puluwat;1;sḗïk;äbṹgu;äṅeraíu;ân;bīắu;jấpi;elṍp;*jãro;;;1;Hambruch & Sarfert (1935:280f.);;Jackson (1983:52) reports also [-]ngool for 10, besides [-]yik 
+pulu1243;Pulusukese;Pulusuk;1;heejik;pwukuw;ngaraj;?;;;;;;;0;Quackenbush (1968:201-203); ;
+namo1247;Namonuito;main;1;óngol;e bogü;ë auit;ë git;;;;;;;0;Krämer (1935:206f.);Quackenbush (1968:201-203) reports a pattern in line with Trukic (with 1000 = ngaraj);
+paaf1237;Pááfang;main;1;jengȯȯl;pwukyw;ngarėw;?;;;;;;;0;Quackenbush (1968:201-203); ;
+tana1281;Tanapag;main;1;sejig;bwuguw;ngaras;?;;;;;;;0;Quackenbush (1968:201-203); ;
+caro1242;Carolinian;main;1;[-]igh / eyáf;[-]bwúghúw;[-]ngaras / [-]ngéréw;[e]ghit;[-]púngút;[-]l;;;;;0;Jackson & Marck (1991:340-342);;"Fritz (1911:19) reports sél for 10,000 and äpingit for 100,000; both J&M (1991) and Fritz (1911) report eyáf for units of 10 coconuts"
+sata1237;Satawalese;main;1;sãk;äwṹgu;sâṅeräs;sâl;bīắu;jâṅit;selimâsel;*sṓlubi;;;1;Hambruch & Sarfert (1935:280f.);;
+lamo1243;Woleaian;Lamotrek;1;seg;sëbugul;sangaras;sel;;;;;;;0;Krämer (1937:411f.);unclear whether Krämer (1937)'s power numerals for 100,000 onwards apply also to Lamotrek, or only to Fais;
+wole1240;Woleaian;Ifaluk;1;sǟk;säwṹgu;sắṅaläs;sấn;selṍp;sấṅit;saṅalãu;ṅalául maṅalául;*jalṍt;;1;Damm [Hambruch & Sarfert] (1938:101f.); ;
+wole1240;Woleaian;Euaripik;1;sǟch;sawṹgu;saṅärấs;sấn;selṍwu;sấṅit;ṅaráuli maṅerául;*jarṍt;;;1;Damm [Hambruch & Sarfert ] (1938:146f.); ;
+wole1240;Woleaian;Faraulep;1;šḗχ;thiawugu;thiăṅerăs;thḝn;thiarṓuf;thiaăṅarḗi;thiăṅḯt;naroidamăṅerōĩd;;;1;Damm [Hambruch & Sarfert] (1938:213-216);;
+wole1240;Woleaian ;Woleai Atoll;1;[se]ig ;[se]biugiuw;[sa]ngeras;[se]n;[se]lob;[se]piy;[se]ngit;[sa]ngerai;;;0;Sohn (1975:61f.,79f.);;
+wole1240;Woleaian ;Woleai Atoll;1;seg;supagui;songaras;sen;selop;súpi;;;;;0;Alkire (1970:8);;"for power numerals in specific counting systems, see Alkire (1970:10-13); analysis in Bender & Beller (subm.)"
+mapi1250;Mapia;main;1;hēk;ébugi;hóṅra;hān;;;;;;;0;Kubary (1895:113); ;
+ulit1238;Ulithian;Sorol;1;sǟk;sowṹgi;saṅarẻs;sẻl;sebĩ;sebãdj;;;;;1;Damm [Hambruch & Sarfert] (1938:279f.); ;
+ulit1238;Ulithian;Fais (Feis);1;ség;sóbugui;séngaras;sel;sollop;sengit;sangarai;sémet;*kaimus;;0;Krämer (1937:411f.);power numeral for 100,000 presumably as in Lamotrek;Krämer mentions fishing as explanation for the high numerals on Lamotrek and Feis
+ulit1238;Ulithian;Mogmog;1;thḯg / thẻg;the bogṹ;thẻn;thelṍp;;;;;;;1;Damm [Hambruch & Sarfert] (1938:373f. [citing Hambruch]);;Tetens & Kubary (1873:58 [130]) report sek (10), seboukith (100), sangrass (1000)
+ulit1238;Ulithian;main;1;[-]yexe;[-]buxuya;[-]garase;sele ;ppiya ;;;;;;0;Sohn & Bender (1973:201f.,244f.); ;
+sons1243;Sonsorol;Sonsorolese;1;ṣeḭẻdiu;ṣaṵuki;ṣaṅgelẹṣ;mện;ṣaṅiaur;ṣeioṵuil;;;;;1;Eilers (1935:81f.);;
+pulo1240;Sonsorol;Pulo Ana (Pur);1;ẓḗïk;ẓaṵṍki;ẓaṅgelḝẓi;ẓaṅgauri;ṵaripitãχo;;;;;;1;Eilers (1935:260);;
+pulo1240;Sonsorol;Merir;1;ẓḗik;ẓaṵóki;ẓeṅgelẹẓi;ẓeu-taroḭetēik;tēiḭetiu taroḭetḗik;mẹẓepi mẹẓepi;;;;;1;Eilers (1935:379) ;;"for power numerals in pair-wise counting, see Eilers (1935:380); analysis in Bender & Beller (subm.) "
+tobi1238;Tobian;main;1;séu / ṣeigẹtĕu ;ṣẹvṍguk;ṣẹgengas;;;;;;;;1;Eilers (1936:125-127 [citing A. Krämer]);Eilers also renders numerals reported by Pickering, Hale, and  Hellwig;
