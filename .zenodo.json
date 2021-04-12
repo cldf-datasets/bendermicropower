@@ -7,10 +7,15 @@
     ],
     "creators": [
         {
-            "name": ""
+            "name": "Andrea Bender"
         }
     ],
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Christoph Rzymski",
+            "type": "Other"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"

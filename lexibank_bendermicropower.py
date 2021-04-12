@@ -1,17 +1,29 @@
 from pathlib import Path
+
+import attr
 import pylexibank
 from clldutils.misc import slug
+
+
+@attr.s
+class CustomLanguage(pylexibank.Language):
+    lang_Var = attr.ib(default=None)
+    lang_Br = attr.ib(default=None)
+    comm_Source = attr.ib(default=None)
+    comm_Syst = attr.ib(default=None)
+    Orth = attr.ib(default=None)
 
 
 class Dataset(pylexibank.Dataset):
     dir = Path(__file__).parent
     id = "bendermicropower"
+    language_class = CustomLanguage
 
     form_spec = pylexibank.FormSpec(
         brackets={"(": ")"},
-        separators=";/,",
-        missing_data=("?", "-"),
-        strip_inside_brackets=True,
+        separators="/",
+        missing_data=("?",),
+        strip_inside_brackets=False,
     )
 
     def cmd_makecldf(self, args):
@@ -22,10 +34,21 @@ class Dataset(pylexibank.Dataset):
         )
 
         for row in data:
-            args.writer.add_language(ID=row["lang_ID"], Glottocode=row["lang_ID"])
+            args.writer.add_language(
+                ID=row["lang_ID"],
+                Glottocode=row["lang_ID"],
+                Name=row["lang_Name"],
+                lang_Var=row["lang_Var"],
+                lang_Br=row["lang_Br"],
+                Orth=row["Orth"],
+                comm_Source=row["comm_Source"],
+                comm_Syst=row["comm_Syst"],
+            )
 
-            for k, v in concept_lookup.items():
-                if row[k]:
-                    args.writer.add_form(
-                        Value=row[k], Form=row[k], Language_ID=row["lang_ID"], Parameter_ID=v
+            for conc_gloss, conc_id in concept_lookup.items():
+                if row[conc_gloss]:
+                    args.writer.add_forms_from_value(
+                        Value=row[conc_gloss],
+                        Language_ID=row["lang_ID"],
+                        Parameter_ID=conc_id,
                     )

@@ -2,4 +2,5 @@
 
 Name | GitHub user | Role
 --- | --- | ---
- | @ | maintainer
+Andrea Bender | @AndreaBender | Author
+Christoph Rzymski | @chrzyki | Other

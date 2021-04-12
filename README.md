@@ -10,20 +10,21 @@
 
 - **Varieties:** 30
 - **Concepts:** 10
-- **Lexemes:** 217
+- **Lexemes:** 229
 - **Sources:** 0
-- **Synonymy:** 1.19
+- **Synonymy:** 1.27
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 217/217 (100.00%)
+- Entries missing sources: 229/229 (100.00%)
 
 # Contributors
 
 Name | GitHub user | Role
 --- | --- | ---
- | @ | maintainer
+Andrea Bender | @AndreaBender | Author
+Christoph Rzymski | @chrzyki | Other
 
 

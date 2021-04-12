@@ -11,7 +11,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/bendermicropower",
-            "dc:created": "eafa769"
+            "dc:created": "be8d5d7"
         },
         {
             "rdf:type": "prov:Entity",
@@ -29,7 +29,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts",
-            "dc:created": "v1.4-3-g99e4218"
+            "dc:created": "v2.0.0-2-gdf0f44c"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -50,7 +50,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 217,
+            "dc:extent": 229,
             "tableSchema": {
                 "columns": [
                     {
@@ -209,6 +209,26 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lang_Var"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lang_Br"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "comm_Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "comm_Syst"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Orth"
                     }
                 ],
                 "primaryKey": [
