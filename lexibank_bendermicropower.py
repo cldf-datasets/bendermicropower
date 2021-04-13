@@ -28,6 +28,7 @@ class Dataset(pylexibank.Dataset):
 
     def cmd_makecldf(self, args):
         data = self.raw_dir.read_csv("1a_dat_MicPowNum_2021_04.csv", dicts=True, delimiter=";")
+        args.writer.add_sources()
 
         concept_lookup = args.writer.add_concepts(
             id_factory=lambda x: x.id.split("-")[-1] + "_" + slug(x.gloss), lookup_factory="Name"
@@ -51,4 +52,5 @@ class Dataset(pylexibank.Dataset):
                         Value=row[conc_gloss],
                         Language_ID=row["lang_ID"],
                         Parameter_ID=conc_id,
+                        Source=row["source_Key"]
                     )

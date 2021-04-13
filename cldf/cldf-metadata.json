@@ -4,6 +4,7 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:isVersionOf": null,
     "dc:related": null,
+    "dc:source": "sources.bib",
     "dc:title": "Bender Micronesia",
     "dcat:accessURL": "https://github.com/cldf-datasets/bendermicropower",
     "prov:wasDerivedFrom": [
@@ -11,7 +12,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/bendermicropower",
-            "dc:created": "be8d5d7"
+            "dc:created": "1917484"
         },
         {
             "rdf:type": "prov:Entity",
