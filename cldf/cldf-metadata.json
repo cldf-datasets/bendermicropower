@@ -12,7 +12,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/bendermicropower",
-            "dc:created": "1917484"
+            "dc:created": "bc20d2d"
         },
         {
             "rdf:type": "prov:Entity",
@@ -36,7 +36,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.7.3"
+            "dc:description": "3.8.5"
         },
         {
             "dc:title": "python-packages",
@@ -154,7 +154,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 30,
+            "dc:extent": 38,
             "tableSchema": {
                 "columns": [
                     {
@@ -222,10 +222,6 @@
                     {
                         "datatype": "string",
                         "name": "comm_Source"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "comm_Syst"
                     },
                     {
                         "datatype": "string",

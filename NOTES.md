@@ -1,7 +1,3 @@
-# Bender Micronesia
-
-## Notes
-
 The data file contains information on the power numerals in the languages spoken in Micronesia, as collected from grammars and vocabularies of those languages, linguistic analyses, and ethnographic descriptions.
 
 ## Data file structure
@@ -41,28 +37,3 @@ The transcription sheet details which specific signs were retained, and which ha
 As noted earlier, ligature markings were ignored.
 
 The overview contains two parts: a complete list for vowels with all diacritics used, and a list of the non-standard consonants used. Those shaded blue were retained, those shaded red had to be modified (a box with notes explains the colour coding).
-
-
-
-## Statistics
-
-
-[![CLDF validation](https://github.com/cldf-datasets/bendermicropower/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/bendermicropower/actions?query=workflow%3ACLDF-validation)
-![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-
-- **Varieties:** 38
-- **Concepts:** 10
-- **Lexemes:** 229
-- **Sources:** 26
-- **Synonymy:** 1.06
-
-# Contributors
-
-Name | GitHub user | Role
---- | --- | ---
-Andrea Bender | @AndreaBender | Author
-Christoph Rzymski | @chrzyki | Other
-
-
