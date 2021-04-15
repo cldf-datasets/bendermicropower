@@ -12,7 +12,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/bendermicropower",
-            "dc:created": "bc20d2d"
+            "dc:created": "4abc3a4"
         },
         {
             "rdf:type": "prov:Entity",
@@ -36,7 +36,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.5"
+            "dc:description": "3.7.3"
         },
         {
             "dc:title": "python-packages",
@@ -226,6 +226,10 @@
                     {
                         "datatype": "string",
                         "name": "Orth"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Source"
                     }
                 ],
                 "primaryKey": [

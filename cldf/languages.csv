@@ -1,39 +1,39 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,lang_Var,lang_Br,comm_Source,Orth
-chamMain_Saff1904,Chamorro,cham1312,Chamorro,cha,Papunesia,13.438011,144.74474,Austronesian,main,2, ,0
-palaMain_Kram1919,Palauan,pala1344,Palauan,pau,Papunesia,7.34138,134.476678,Austronesian,main,2, ,0
-yapeMain_Tete1873,Yapese,yape1248,Yapese,yap,Papunesia,9.55811,138.125,Austronesian,main,2,"Müller (1917:125f.): similar, but one power less",0
-ngulMain_Eile1936,Nguluwan,ngul1236,Nguluwan,nuw,Papunesia,8.45,137.34,Austronesian,main,2,Eilers' list of numerals ends at 600,0
-kapiMain_Eile1934,Kapingamarangi,kapi1249,Kapingamarangi,kpg,Papunesia,1.039166,154.797223,Austronesian,main,2,Lieber & Dikepa (1974): similar,0
-nukuMain_HaJa1984,Nukuoro,nuku1260,Nukuoro,nkr,Papunesia,3.84,154.975,Austronesian,main,2,Carroll & Soulik (1973): same numerals (except for 10) up to 10^8,0
-naurMain_Kays1993,Nauru,naur1243,Nauru,nau,Papunesia,-0.52957,166.922,Austronesian,main,1,power numeral for 10^5 from Hambruch (1914:111),0
-kosrMain_LeeK1975,Kosraean,kosr1238,Kosraean,kos,Papunesia,5.31,162.98,Austronesian,main,1, ,0
-gilbMain_Bing1922,Gilbertese,gilb1244,Gilbertese,gil,Papunesia,0.179,173.64,Austronesian,main,1,,0
-marsMain_Erdl1906,Marshallese,mars1254,Marshallese,mah,Papunesia,8.72,167.73,Austronesian,main,1,"for power numerals in specific counting systems, see Erdland (1906:204f.); analysis in Bender & Beller (subm.)",0
-pingMain_GoWe1989,Pingelapese,ping1243,Pingelapese,pif,Papunesia,6.20743,160.711,Austronesian,main,1,"Eilers (1934:461-463) reports similar, yet more complicated numerals (except for 10) up to 10^9",0
-mokiMain_Harr1976,Mokilese,moki1238,Mokilese,mkj,Papunesia,6.65651,159.776,Austronesian,main,1,"Eilers (1934:397) reports similar, yet more complicated numerals (except for 10), and up to 10^3 only",0
-pohnMain_Rehg1981,Pohnpeian,pohn1238,Pohnpeian,pon,Papunesia,6.87212,158.223,Austronesian,main,1, ,0
-mortMain_Girs1913,Mortlockese,mort1237,Mortlockese,mrl,Papunesia,5.50735,153.710778,Austronesian,main,1, ,1
-chuuMain_Elbe1947,Chuukese,chuu1238,Chuukese,chk,Papunesia,7.346993,151.598607,Austronesian,main,1,Krämer (1932:37): similar [but 100 is lacking],0
-pollPoll_Quac1968,Pollapese,poll1238,Pollapese,,Papunesia,7.638875,149.428723,Austronesian,Pollap,1, ,0
-puluPuwa_Damm1935,Puluwatese,pulu1242,Puluwatese,puw,Papunesia,7.35695,149.2005,Austronesian,Puluwat,1,,1
-puluPusu_Quac1968,Pulusukese,pulu1243,Pulusukese,,Papunesia,,,Austronesian,Pulusuk,1, ,0
-namoMain_Kram1935,Namonuito,namo1247,Namonuito,nmt,Papunesia,8.584627,149.685202,Austronesian,main,1,Quackenbush (1968:201-203) reports a pattern in line with Trukic (with 10^3 = ngaraj),0
-paafMain_Quac1968,Pááfang,paaf1237,Pááfang,pfa,Papunesia,8.610194,152.240167,Austronesian,main,1, ,0
-tanaMain_Quac1968,Tanapag,tana1281,Tanapag,tpv,Papunesia,15.237,145.757,Austronesian,main,1, ,0
-caroMain_JaMa1991,Carolinian,caro1242,Carolinian,cal,Papunesia,15.205,145.765,Austronesian,main,1,,0
-sataMain_Damm1935,Satawalese,sata1237,Satawalese,stw,Papunesia,7.36084,147.038,Austronesian,main,1,,1
-woleLamo_Kram1937,Woleaian,lamo1243,Lamotrek,,Papunesia,,,Austronesian,Lamotrek,1,"unclear whether Krämer's (1937) power numerals for 10^5 onwards apply also to Lamotrek, or only to Fais",0
-woleIfal_Damm1938,Woleaian,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Ifaluk,1, ,1
-woleEuar_Damm1938,Woleaian,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Euaripik,1, ,1
-woleFara_Damm1938,Woleaian,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Faraulep,1,,1
-woleWolA_Sohn1975,Woleaian ,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Woleai Atoll,1,,0
-woleWolA_Alki1970,Woleaian ,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Woleai Atoll,1,"for power numerals in specific counting systems, see Alkire (1970:10-13); analysis in Bender & Beller (subm.)",0
-mapiMain_Kuba1895,Mapia,mapi1250,Mapia,mpy,Papunesia,0.908889,134.304722,Austronesian,main,1, ,0
-ulitSoro_Damm1938,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,Sorol,1, ,1
-ulitFais_Kram1937,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,Fais (Feis),1,power numeral for 10^5 presumably as in Lamotrek,0
-ulitMogm_Damm1938,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,Mogmog,1,,1
-ulitMain_SoBe1973,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,main,1, ,0
-sonsSons_Eile1935,Sonsorol,sons1243,Sonsorolese,,Papunesia,,,Austronesian,Sonsorolese,1,,1
-sonsPulo_Eile1935,Sonsorol,pulo1240,Pulo Anna,,Papunesia,,,Austronesian,Pulo Ana (Pur),1,,1
-sonsMeri_Eile1935,Sonsorol,pulo1240,Pulo Anna,,Papunesia,,,Austronesian,Merir,1,"for power numerals in pair-wise counting, see Eilers (1935:380); analysis in Bender & Beller (subm.) ",1
-tobiMain_Eile1936,Tobian,tobi1238,Tobian,tox,Papunesia,3.004528,131.171295,Austronesian,main,1,"Eilers also renders numerals reported by Pickering, Hale, and  Hellwig",1
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,lang_Var,lang_Br,comm_Source,Orth,Source
+chamMain_Saff1904,Chamorro,cham1312,Chamorro,cha,Papunesia,13.438011,144.74474,Austronesian,main,2, ,0,Safford (1904:95-102)
+palaMain_Kram1919,Palauan,pala1344,Palauan,pau,Papunesia,7.34138,134.476678,Austronesian,main,2, ,0,Krämer (1919:331)
+yapeMain_Tete1873,Yapese,yape1248,Yapese,yap,Papunesia,9.55811,138.125,Austronesian,main,2,"Müller (1917:125f.): similar, but one power less",0,Tetens & Kubary (1873:99)
+ngulMain_Eile1936,Nguluwan,ngul1236,Nguluwan,nuw,Papunesia,8.45,137.34,Austronesian,main,2,Eilers' list of numerals ends at 600,0,Eilers (1936:243) 
+kapiMain_Eile1934,Kapingamarangi,kapi1249,Kapingamarangi,kpg,Papunesia,1.039166,154.797223,Austronesian,main,2,Lieber & Dikepa (1974): similar,0,Eilers (1934:300 [citing Jeschke & Kubary]) 
+nukuMain_HaJa1984,Nukuoro,nuku1260,Nukuoro,nkr,Papunesia,3.84,154.975,Austronesian,main,2,Carroll & Soulik (1973): same numerals (except for 10) up to 10^8,0,Harrison & Jackson (1984:72)
+naurMain_Kays1993,Nauru,naur1243,Nauru,nau,Papunesia,-0.52957,166.922,Austronesian,main,1,power numeral for 10^5 from Hambruch (1914:111),0,Kayser (1993[1936]:68)
+kosrMain_LeeK1975,Kosraean,kosr1238,Kosraean,kos,Papunesia,5.31,162.98,Austronesian,main,1, ,0,Lee (1975:123)
+gilbMain_Bing1922,Gilbertese,gilb1244,Gilbertese,gil,Papunesia,0.179,173.64,Austronesian,main,1,,0,Bingham (1922:15-19)
+marsMain_Erdl1906,Marshallese,mars1254,Marshallese,mah,Papunesia,8.72,167.73,Austronesian,main,1,"for power numerals in specific counting systems, see Erdland (1906:204f.); analysis in Bender & Beller (subm.)",0,Erdland (1906:204)
+pingMain_GoWe1989,Pingelapese,ping1243,Pingelapese,pif,Papunesia,6.20743,160.711,Austronesian,main,1,"Eilers (1934:461-463) reports similar, yet more complicated numerals (except for 10) up to 10^9",0,Good & Welley (1989:9-12)
+mokiMain_Harr1976,Mokilese,moki1238,Mokilese,mkj,Papunesia,6.65651,159.776,Austronesian,main,1,"Eilers (1934:397) reports similar, yet more complicated numerals (except for 10), and up to 10^3 only",0,Harrison (1976:97)
+pohnMain_Rehg1981,Pohnpeian,pohn1238,Pohnpeian,pon,Papunesia,6.87212,158.223,Austronesian,main,1, ,0,Rehg (1981:139)
+mortMain_Girs1913,Mortlockese,mort1237,Mortlockese,mrl,Papunesia,5.50735,153.710778,Austronesian,main,1, ,1,Girschner (1913:171)
+chuuMain_Elbe1947,Chuukese,chuu1238,Chuukese,chk,Papunesia,7.346993,151.598607,Austronesian,main,1,Krämer (1932:37): similar [but 100 is lacking],0,Elbert (1947:23f.)
+pollMain_Quac1968,Pollapese,poll1238,Pollapese,,Papunesia,7.638875,149.428723,Austronesian,main,1, ,0,Quackenbush (1968:201-203)
+puluPuwa_Damm1935,Puluwatese,pulu1242,Puluwatese,puw,Papunesia,7.35695,149.2005,Austronesian,Puluwat,1,,1,Damm [Hambruch & Sarfert] (1935:280f.)
+puluPusu_Quac1968,Pulusukese,pulu1243,Pulusukese,,Papunesia,,,Austronesian,Pulusuk,1, ,0,Quackenbush (1968:201-203)
+namoMain_Kram1935,Namonuito,namo1247,Namonuito,nmt,Papunesia,8.584627,149.685202,Austronesian,main,1,Quackenbush (1968:201-203) reports a pattern in line with Trukic (with 10^3 = ngaraj),0,Krämer (1935:206f.)
+paafMain_Quac1968,Pááfang,paaf1237,Pááfang,pfa,Papunesia,8.610194,152.240167,Austronesian,main,1, ,0,Quackenbush (1968:201-203)
+tanaMain_Quac1968,Tanapag,tana1281,Tanapag,tpv,Papunesia,15.237,145.757,Austronesian,main,1, ,0,Quackenbush (1968:201-203)
+caroMain_JaMa1991,Carolinian,caro1242,Carolinian,cal,Papunesia,15.205,145.765,Austronesian,main,1,,0,Jackson & Marck (1991:340-342)
+sataMain_Damm1935,Satawalese,sata1237,Satawalese,stw,Papunesia,7.36084,147.038,Austronesian,main,1,,1,Damm [Hambruch & Sarfert] (1935:280f.)
+woleLamo_Kram1937,Woleaian,lamo1243,Lamotrek,,Papunesia,,,Austronesian,Lamotrek,1,"unclear whether Krämer's (1937) power numerals for 10^5 onwards apply also to Lamotrek, or only to Fais",0,Krämer (1937:411f.)
+woleIfal_Damm1938,Woleaian,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Ifaluk,1, ,1,Damm [Hambruch & Sarfert] (1938:101f.)
+woleEuar_Damm1938,Woleaian,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Euaripik,1, ,1,Damm [Hambruch & Sarfert ] (1938:146f.)
+woleFara_Damm1938,Woleaian,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Faraulep,1,,1,Damm [Hambruch & Sarfert] (1938:213-216)
+woleWolA_Sohn1975,Woleaian ,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Woleai Atoll,1,"for power numerals in specific counting systems, see Sohn & Tawerilmang (1976:255,394); analysis in Bender & Beller (subm.)",0,"Sohn (1975:61f.,79f.)"
+woleWolA_Alki1970,Woleaian ,wole1240,Woleaian,woe,Papunesia,7.37957,143.916,Austronesian,Woleai Atoll,1,"for power numerals in specific counting systems, see Alkire (1970:10-13); analysis in Bender & Beller (subm.)",0,Alkire (1970:8)
+mapiMain_Kuba1895,Mapia,mapi1250,Mapia,mpy,Papunesia,0.908889,134.304722,Austronesian,main,1, ,0,Kubary (1895:113)
+ulitSoro_Damm1938,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,Sorol,1, ,1,Damm [Hambruch & Sarfert] (1938:279f.)
+ulitFais_Kram1937,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,Fais (Feis),1,,0,Krämer (1937:411f.)
+ulitMogm_Damm1938,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,Mogmog,1,,1,Damm [Hambruch & Sarfert] (1938:373f. [citing Hambruch])
+ulitMain_SoBe1973,Ulithian,ulit1238,Ulithian,uli,Papunesia,9.961388,139.603611,Austronesian,main,1, ,0,"Sohn & Bender (1973:201f.,244f.)"
+sonsSons_Eile1935,Sonsorol,sons1243,Sonsorolese,,Papunesia,,,Austronesian,Sonsorolese,1,,1,Eilers (1935:81f.)
+sonsPulo_Eile1935,Sonsorol,pulo1240,Pulo Anna,,Papunesia,,,Austronesian,Pulo Ana (Pur),1,,1,Eilers (1935:260)
+sonsMeri_Eile1935,Sonsorol,pulo1240,Pulo Anna,,Papunesia,,,Austronesian,Merir,1,"for power numerals in pair-wise counting, see Eilers (1935:380); analysis in Bender & Beller (subm.) ",1,Eilers (1935:379) 
+tobiMain_Eile1936,Tobian,tobi1238,Tobian,tox,Papunesia,3.004528,131.171295,Austronesian,main,1,"Eilers also renders numerals reported by Pickering, Hale, and  Hellwig",1,Eilers (1936:125-127 [citing Krämer])

@@ -11,6 +11,7 @@ class CustomLanguage(pylexibank.Language):
     lang_Br = attr.ib(default=None)
     comm_Source = attr.ib(default=None)
     Orth = attr.ib(default=None)
+    Source = attr.ib(default=None)
 
 
 class Dataset(pylexibank.Dataset):
@@ -19,11 +20,14 @@ class Dataset(pylexibank.Dataset):
     language_class = CustomLanguage
 
     form_spec = pylexibank.FormSpec(
-        brackets={"(": ")"}, separators="/", missing_data=("?",), strip_inside_brackets=False,
+        brackets={"(": ")"},
+        separators="/",
+        missing_data=("?",),
+        strip_inside_brackets=False,
     )
 
     def cmd_makecldf(self, args):
-        data = self.raw_dir.read_csv("1a_dat_MicPowNum_2021_04b_commForms.csv", dicts=True)
+        data = self.raw_dir.read_csv("1_dat_MicPowNum_2021_04.csv", dicts=True)
         args.writer.add_sources()
 
         concept_lookup = args.writer.add_concepts(
@@ -39,20 +43,30 @@ class Dataset(pylexibank.Dataset):
                 lang_Br=row["lang_Br"],
                 Orth=row["Orth"],
                 comm_Source=row["comm_Source"],
+                Source=row["source"],
             )
 
             for conc_gloss, conc_id in concept_lookup.items():
+                comment_form = self.form_spec.split(item=None, value=row[conc_gloss])
                 comment = ""
 
-                for com in row["comm_Forms"].split(";"):
-                    if row[conc_gloss] in com:
-                        comment = com.lstrip()
-
                 if row[conc_gloss]:
-                    args.writer.add_forms_from_value(
-                        Value=row[conc_gloss],
-                        Language_ID=row["ID"],
-                        Parameter_ID=conc_id,
-                        Source=row["source_Key"],
-                        Comment=comment,
-                    )
+                    for cf in comment_form:
+                        for com in row["comm_Forms"].split(";"):
+                            if com.lstrip().startswith(cf + ":"):
+                                comment = com.lstrip()
+
+                        if cf.startswith("(") and cf.endswith(")"):
+                            loan = True
+                        else:
+                            loan = False
+
+                        args.writer.add_form(
+                            Value=row[conc_gloss],
+                            Form=cf,
+                            Language_ID=row["ID"],
+                            Parameter_ID=conc_id,
+                            Source=row["source_Key"],
+                            Comment=comment,
+                            Loan=loan,
+                        )
