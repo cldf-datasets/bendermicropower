@@ -255,7 +255,7 @@
 @article{Tetens1873,
   title={Die Carolineninsel Yap oder Guap nebst den Mateiotas-, Makenzie-, Fais- und Wolea-Inseln},
   author={Tetens, Alfred and Kubary, J S},
-  note={bearbeitet von Dr. E. Graffe}
+  note={bearbeitet von Dr. E. Graffe},
   journal={Journal des Museum Godeffroy},
   volume={1},
   pages={84--130},
