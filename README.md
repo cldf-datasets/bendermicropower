@@ -1,4 +1,13 @@
-# Bender Micronesia
+# Power numerals in the general counting systems of Micronesia
+
+Cite the source dataset as
+
+> Bender, A., & Beller, S. (subm.). Ways of counting in Micronesia. Historia Mathematica.
+
+
+This repository contains linguistic data on the power numerals in the general counting systems of Micronesia that are discussed in the manuscript entitled "Ways of counting in Micronesia", authored by Andrea Bender & Sieghard Beller.
+
+This dataset is licensed under a CC-BY-4.0 license
 
 ## Notes
 

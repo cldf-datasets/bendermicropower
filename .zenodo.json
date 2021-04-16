@@ -1,5 +1,5 @@
 {
-    "title": "Bender Micronesia",
+    "title": "Power numerals in the general counting systems of Micronesia",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",
@@ -21,5 +21,9 @@
             "identifier": "lexibank"
         }
     ],
-    "upload_type": "dataset"
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bender, A., &amp; Beller, S. (subm.). Ways of counting in Micronesia. Historia Mathematica.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
 }

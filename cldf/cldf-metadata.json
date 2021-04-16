@@ -1,18 +1,21 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
+    "dc:bibliographicCitation": "Bender, A., & Beller, S. (subm.). Ways of counting in Micronesia. Historia Mathematica.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:description": "This repository contains linguistic data on the power numerals in the general counting systems of Micronesia that are discussed in the manuscript entitled \"Ways of counting in Micronesia\", authored by Andrea Bender & Sieghard Beller.",
     "dc:isVersionOf": null,
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "Bender Micronesia",
+    "dc:title": "Power numerals in the general counting systems of Micronesia",
     "dcat:accessURL": "https://github.com/cldf-datasets/bendermicropower",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/bendermicropower",
-            "dc:created": "2a26594"
+            "dc:created": "7eea23f"
         },
         {
             "rdf:type": "prov:Entity",
