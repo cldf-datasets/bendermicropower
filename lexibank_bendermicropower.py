@@ -7,11 +7,12 @@ from clldutils.misc import slug
 
 @attr.s
 class CustomLanguage(pylexibank.Language):
-    lang_Var = attr.ib(default=None)
     lang_Br = attr.ib(default=None)
-    comm_Source = attr.ib(default=None)
+    lang_Var = attr.ib(default=None)
     Orth = attr.ib(default=None)
+    source_Key = attr.ib(default=None)
     Source = attr.ib(default=None)
+    comm_Source = attr.ib(default=None)
 
 
 class Dataset(pylexibank.Dataset):
@@ -28,24 +29,15 @@ class Dataset(pylexibank.Dataset):
 
     def cmd_makecldf(self, args):
         data = self.raw_dir.read_csv("1_dat_MicPowNum_2021_04.csv", dicts=True)
-        args.writer.add_sources()
+        args.writer.add_sources((self.raw_dir / "2_sources_2021_04.bib").read_text(encoding="utf8"))
 
         concept_lookup = args.writer.add_concepts(
             id_factory=lambda x: x.id.split("-")[-1] + "_" + slug(x.gloss), lookup_factory="Name"
         )
 
-        for row in data:
-            args.writer.add_language(
-                ID=row["ID"],
-                Glottocode=row["lang_Code"],
-                Name=row["lang_Name"],
-                lang_Var=row["lang_Var"],
-                lang_Br=row["lang_Br"],
-                Orth=row["Orth"],
-                comm_Source=row["comm_Source"],
-                Source=row["source"],
-            )
+        args.writer.add_languages()
 
+        for row in data:
             for conc_gloss, conc_id in concept_lookup.items():
                 comment_form = self.form_spec.split(item=None, value=row[conc_gloss])
                 comment = ""
@@ -54,7 +46,7 @@ class Dataset(pylexibank.Dataset):
                     for cf in comment_form:
                         for com in row["comm_Forms"].split(";"):
                             if com.lstrip().startswith(cf + ":"):
-                                comment = com.lstrip()
+                                comment = com.replace(cf + ":", "").lstrip()
 
                         if cf.startswith("(") and cf.endswith(")"):
                             loan = True

@@ -21,7 +21,7 @@ The folder contains four documents, one of which in two different formats:
   - once as formatted text, labelled 0a_ReadMe.pdf,
   - and once as plain text: 0b_ReadMe.txt 
 * a data file in comma-delimited format: 1_dat_MicPowNum_2021_04.csv
-* a source file in UTF-8 encoded text-based format for bibliographic entries: 2_sources_2021_04.txt
+* a source file in UTF-8 encoded text-based format for bibliographic entries: 2_sources_2021_04.bib
 * a transcription sheet as formatted text: 3_transcrRules_2021_03.pdf
 
 The data file contains the data on power numerals that are discussed in the manuscript entitled "Ways of counting in Micronesia", authored by Andrea Bender & Sieghard Beller and to be published in Historia Mathematica. The source file contains bibliographic information on the sources used to generate the data file. And the transcription sheet details how specific signs were transcribed. Data file, source file, and transcription sheet are described in the following. 
@@ -52,7 +52,7 @@ The final set of columns contain various types of comments on the data:
 * The column "Source" specifies the main source for the reported data, with author name(s), year of publication, and page number. If several sources are available, as a general rule the earliest most coherent report was chosen (see the manuscript, for more detailed information and discussion). Full bibliographic data is provided in a separate source file (see (2) below).
 * The column "source_Key" provides the key to the entry names in the source file.
 * The column "comm_Source" contains comments on sources, such as notes on inconsistencies in the source used (if such occur) and references to additional sources where available, or information on broader patterns, including notes on specific counting systems.
-* The final column "comm_Forms" contains explanatory information on specific numerals, including notes on when to use which alternative for the same number. Entries begin with the form of the numeral concerned, followed by ":"; comments on different forms in the same language variant are separated by "/". 
+* The final column "comm_Forms" contains explanatory information on specific numerals, including notes on when to use which alternative for the same number. Entries begin with the form of the numeral concerned, followed by ":"; comments on different forms in the same language variant are separated by ";". 
 
 Data usage
 The power numerals reported in columns "10^1" to "10^10" constitute the main data of Figure 6 in the manuscript, which illustrates the distribution of power numerals in the Micronesian languages, indicating for each language the range of power numerals (Fig. 6a) and the roots of which numerals are reflexes, detailed for base 10 (Fig. 6b) as well as for the next two powers of the base, 100 and 1000 (Fig. 6c). For further discussion, see the manuscript.

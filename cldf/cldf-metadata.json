@@ -12,7 +12,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/bendermicropower",
-            "dc:created": "4abc3a4"
+            "dc:created": "2a26594"
         },
         {
             "rdf:type": "prov:Entity",
@@ -213,15 +213,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "lang_Var"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "lang_Br"
                     },
                     {
                         "datatype": "string",
-                        "name": "comm_Source"
+                        "name": "lang_Var"
                     },
                     {
                         "datatype": "string",
@@ -229,7 +225,15 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "source_Key"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "comm_Source"
                     }
                 ],
                 "primaryKey": [

@@ -23,8 +23,12 @@ The subsequent ten columns “10^1” to “10^10” contain information on powe
 The final set of columns contain various types of comments on the data:
 - The column “Orth” indicates whether, for the numerals of that language (in columns from 101 to 1010), orthography was fully retained (“0”) or had to be adjusted (“1”).
 - The column “Source” specifies the main source for the reported data, with author name(s), year of publication, and page number. If several sources are available, as a general rule the earliest most coherent report was chosen (see Bender & Beller, subm., for more detailed information and discussion). Full bibliographic data is provided in a separate source file (see (2) below).
-- The column “comm_Source” contains comments on sources, such as notes on inconsistencies in the source used (if such occur) or references to additional sources where available.
-- The final column “comm_Syst” contains explanatory information on numerals, patterns, or context, including notes on when to use which alternative for the same number and on specific counting systems.
+- The column “source_Key” provides the key to the entry names in the source file.
+- The column “comm_Source” contains comments on sources, such as notes on
+inconsistencies in the source used (if such occur) and references to additional sources where
+available, or information on broader patterns, including notes on specific counting systems.
+- The final column “comm_Forms” contains explanatory information on specific numerals,
+including notes on when to use which alternative for the same number. Entries begin with the form of the numeral concerned, followed by “:”; comments on different forms in the same language variant are separated by “;”.
     
 ## Data usage
 
